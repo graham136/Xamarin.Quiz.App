@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MathMultiplicationTables.Views.HomePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Home"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image
+                    Aspect="Fill"
+                    HeightRequest="100"
+                    Source="bluenumbers.jpg"
+                    VerticalOptions="Center" />
+                <Frame
+                    Margin="20"
+                    Padding="5"
+                    BorderColor="Gray"
+                    CornerRadius="5">
+                    <StackLayout>
+                        <Label
+                            FontSize="Large"
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Math Tables"
+                            TextColor="DodgerBlue"
+                            VerticalOptions="Center" />
+                        <FlexLayout
+                            AlignItems="Center"
+                            Direction="Row"
+                            JustifyContent="SpaceAround"
+                            Wrap="Wrap">
+                            <Button
+                                BackgroundColor="Red"
+                                BindingContext="1"
+                                Clicked="Table_Button_Clicked"
+                                Text="1"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="Orange"
+                                BindingContext="2"
+                                Clicked="Table_Button_Clicked"
+                                Text="2"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="Green"
+                                BindingContext="3"
+                                Clicked="Table_Button_Clicked"
+                                Text="3"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="Yellow"
+                                BindingContext="4"
+                                Clicked="Table_Button_Clicked"
+                                Text="4"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="Blue"
+                                BindingContext="5"
+                                Clicked="Table_Button_Clicked"
+                                Text="5"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="Indigo"
+                                BindingContext="6"
+                                Clicked="Table_Button_Clicked"
+                                Text="6"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="Violet"
+                                BindingContext="7"
+                                Clicked="Table_Button_Clicked"
+                                Text="7"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="Red"
+                                BindingContext="8"
+                                Clicked="Table_Button_Clicked"
+                                Text="8"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="Orange"
+                                BindingContext="9"
+                                Clicked="Table_Button_Clicked"
+                                Text="9"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="Yellow"
+                                BindingContext="10"
+                                Clicked="Table_Button_Clicked"
+                                Text="10"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="Green"
+                                BindingContext="11"
+                                Clicked="Table_Button_Clicked"
+                                Text="11"
+                                TextColor="White" />
+                            <Button
+                                BackgroundColor="CornflowerBlue"
+                                BindingContext="12"
+                                Clicked="Table_Button_Clicked"
+                                Text="12"
+                                TextColor="White" />
+                        </FlexLayout>
+                        <Label
+                            FontSize="Subtitle"
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Please select a table?"
+                            TextColor="DodgerBlue"
+                            VerticalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+                <Button
+                    Padding="20"
+                    BackgroundColor="DodgerBlue"
+                    Clicked="Exit_Button_Clicked"
+                    HorizontalOptions="Fill"
+                    Text="Exit"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

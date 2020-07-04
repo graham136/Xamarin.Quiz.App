@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MathMultiplicationTables.Views.TablesPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:MathMultiplicationTables.ViewModels"
+    Title="Tables"
+    mc:Ignorable="d">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image
+                    Aspect="Fill"
+                    HeightRequest="100"
+                    Source="bluenumbers.jpg"
+                    VerticalOptions="Center" />
+                <Frame
+                    Margin="20"
+                    Padding="5"
+                    BorderColor="Gray"
+                    CornerRadius="5">
+                    <StackLayout>
+                        <Label
+                            FontSize="Large"
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Math Tables"
+                            TextColor="DodgerBlue"
+                            VerticalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+                <Frame
+                    Margin="20"
+                    Padding="5"
+                    BorderColor="Gray"
+                    CornerRadius="5">
+                    <StackLayout>
+                        <Label
+                            x:Name="question"
+                            FontSize="Medium"
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Math Tables"
+                            TextColor="DodgerBlue"
+                            VerticalOptions="Center" />
+                        <Button
+                            x:Name="button1"
+                            BackgroundColor="Green"
+                            Clicked="AnswerButton_Clicked"
+                            Text="1 x ?"
+                            TextColor="White" />
+                        <Button
+                            x:Name="button2"
+                            BackgroundColor="Green"
+                            Clicked="AnswerButton_Clicked"
+                            Text="1 x ?"
+                            TextColor="White" />
+                        <Button
+                            x:Name="button3"
+                            BackgroundColor="Green"
+                            Clicked="AnswerButton_Clicked"
+                            Text="1 x ?"
+                            TextColor="White" />
+                        <Label
+                            FontSize="Subtitle"
+                            HorizontalOptions="CenterAndExpand"
+                            Text="Please tap the button with the correct value?"
+                            TextColor="DodgerBlue"
+                            VerticalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
