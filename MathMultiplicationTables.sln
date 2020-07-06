@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathMultiplicationTables.An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathMultiplicationTables.iOS", "MathMultiplicationTables\MathMultiplicationTables.iOS\MathMultiplicationTables.iOS.csproj", "{7A639CAE-D750-43DC-BA28-8B44EC5F5397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathMultiplicationTables", "MathMultiplicationTables\MathMultiplicationTables\MathMultiplicationTables.csproj", "{3FD6DF8A-80C1-4077-B3B0-6A4049F80728}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathMultiplicationTables", "MathMultiplicationTables\MathMultiplicationTables\MathMultiplicationTables.csproj", "{3FD6DF8A-80C1-4077-B3B0-6A4049F80728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicTests", "LogicTests\LogicTests.csproj", "{69A83527-928B-4AE7-A873-F1DEFA51315C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,18 @@ Global
 		{3FD6DF8A-80C1-4077-B3B0-6A4049F80728}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{3FD6DF8A-80C1-4077-B3B0-6A4049F80728}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{3FD6DF8A-80C1-4077-B3B0-6A4049F80728}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Release|iPhone.Build.0 = Release|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{69A83527-928B-4AE7-A873-F1DEFA51315C}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
